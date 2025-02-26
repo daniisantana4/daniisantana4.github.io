@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>SobreMi</title>
+    <meta name="description" content="Simple HTML5 Page layout template with header, footer, sidebar etc.">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+<header>
+    <div id="logo">
+        <img src="../../../images/banderaPeru.PNG">
+        <span>Sobre Mi</span>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="..\pages\index.html">Inicio</a></li>
+            <li><a href="..\pages\Curriculum.html">CV</a></li>
+            <li><a href="..\pages\SobreMi.html">Sobre mí</a></li>
+            <li><a href="..\pages\Aficiones.html">Aficiones</a></li>
+            <li><a href="..\pages\Trabajos.html">Trabajos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div id="contenedor">
+        <h2>¿De qué equipo eres?</h2>
+        <form id="equipoForm">
+            <label for="equipo">Selecciona tu equipo favorito:</label>
+            <select id="equipo" name="equipo">
+                <option value="ninguno">Ninguno</option>
+                <option value="atletico">Atlético de Madrid</option>
+                <option value="madrid">Real Madrid</option>
+                <option value="barsa">Barcelona</option>
+                <option value="betis">Betis</option>
+                <option value="sevilla">Sevilla</option>
+            </select>
+            <button type="submit">Seleccionar</button>
+        </form>
+
+        <div id="resultado" style="display: none;">
+            <p id="textoEquipo"></p>
+            <img id="imagenEquipo" src="" alt="" style="width: 200px;">
+        </div>
+        <br>
+        <br>
+        <p id="parrafoSobreMi">Soy un programador apasionado por la tecnología. </p>
+        <p id="parrafoSobreMi">Desde que descubrí el mundo de la programación, me he dedicado a aprender y mejorar mis habilidades en distintos lenguajes y entornos. </p>
+        <br>
+        <p id="parrafoSobreMi">Me encanta optimizar código, diseñar bases de datos eficientes y explorar nuevas tendencias en el desarrollo de software.</p>
+        <br>
+        <p id="parrafoSobreMi">Además de escribir líneas de código, disfruto del hardware, el gaming y la ciberseguridad. Siempre busco desafíos que me ayuden a crecer y perfeccionar mi lógica.</p>
+        <br>
+        <p id="parrafoSobreMi">La programación no es solo mi profesión, sino también mi pasión. 🚀</p>
+    </div>
+</main>
+
+
+<footer>
+    <p>&copy; Plantilla utilizada para el desarrollo de esta página web |
+        <a href="https://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a>
+    </p>
+    <address>
+        Contact: <a href="d.santana.pecellin@iescristobaldemonroy.es">Mail me</a>
+    </address>
+</footer>
+
+<script src="../scripts/script.js"></script>
+</body>
+</html>
